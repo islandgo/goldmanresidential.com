@@ -413,7 +413,24 @@
   .ip-banner .container {
     width: 100%;
   }
-}
+  /* #region Global */
+    .site-title h3 {
+      font-size: 15px;
+  }
+    .site-title h2 {
+    font-size: 34px;
+  }
+  /* #endregion Global */
+
+  /* #region neighborhoods */
+  .neighborhoods-gallery-image-container {
+    gap: 10px;
+  }
+  .hp-neighborhoods {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  /* #endregion neighborhoods */
 
 /* Galaxy S5(portrait) | iPod Touch(landscape) | iPod Touch(portrait) */
 
@@ -421,6 +438,11 @@
   /*#region Global */
   /*#endregion Global */
 
+  /* #region neighborhoods */
+  .hp-neighborhoods .site-title h2 {
+    font-size: 34px;
+}
+  /* #endregion neighborhoods */
   /*#region Footer */
   /*#endregion Footer */
   /*#region Fixed smi */
