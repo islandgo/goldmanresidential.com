@@ -157,8 +157,8 @@
 
 
 
-  
 
+  
 }
 
 @media only screen and (max-width: 1450px) {
@@ -283,6 +283,12 @@
   /*#endregion Properties Region */
 
   /*#region Neighborhoods Region */
+  .hp-neighborhoods .title-line {
+    width: 145px;
+}
+.hp-neighborhoods .site-title h2 {
+  font-size: 37px;
+}
 
   /*#endregion Neighborhoods Region */
 
@@ -350,6 +356,20 @@
   }
 
   /*#endregion Header */
+  /* #region Neighborhoods */
+  .hp-neighborhoods {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .neighborhoods-gallery-image-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .hp-neighborhoods .neighborhoods-title {
+    margin-bottom: 30px;
+  }
+  /* #endregion Neighborhoods */
 
   /*#region Contact */
 
