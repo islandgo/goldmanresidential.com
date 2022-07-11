@@ -152,6 +152,13 @@
   /*#endregion Footer */
   /*#region Fixed smi */
   /*#endregion Fixed smi */
+
+
+
+
+
+
+  
 }
 
 @media only screen and (max-width: 1450px) {
@@ -276,6 +283,12 @@
   /*#endregion Properties Region */
 
   /*#region Neighborhoods Region */
+  .hp-neighborhoods .title-line {
+    width: 145px;
+}
+.hp-neighborhoods .site-title h2 {
+  font-size: 37px;
+}
 
   /*#endregion Neighborhoods Region */
 
@@ -343,6 +356,20 @@
   }
 
   /*#endregion Header */
+  /* #region Neighborhoods */
+  .hp-neighborhoods {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .neighborhoods-gallery-image-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .hp-neighborhoods .neighborhoods-title {
+    margin-bottom: 30px;
+  }
+  /* #endregion Neighborhoods */
 
   /*#region Contact */
 
@@ -386,7 +413,24 @@
   .ip-banner .container {
     width: 100%;
   }
-}
+  /* #region Global */
+    .site-title h3 {
+      font-size: 15px;
+  }
+    .site-title h2 {
+    font-size: 34px;
+  }
+  /* #endregion Global */
+
+  /* #region neighborhoods */
+  .neighborhoods-gallery-image-container {
+    gap: 10px;
+  }
+  .hp-neighborhoods {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  /* #endregion neighborhoods */
 
 /* Galaxy S5(portrait) | iPod Touch(landscape) | iPod Touch(portrait) */
 
@@ -394,6 +438,11 @@
   /*#region Global */
   /*#endregion Global */
 
+  /* #region neighborhoods */
+  .hp-neighborhoods .site-title h2 {
+    font-size: 34px;
+}
+  /* #endregion neighborhoods */
   /*#region Footer */
   /*#endregion Footer */
   /*#region Fixed smi */
