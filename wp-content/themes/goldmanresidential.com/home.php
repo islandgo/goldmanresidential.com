@@ -43,84 +43,167 @@
 			</div>
 		</div>
 		<div class="listings-slick">
-			<div class="listings-list">
-				<div class="listings-space">
-					<canvas width="495" height="336"></canvas>
+			<div class="listings-list-holder">
+				<div class="listings-list">
+					<div class="listings-item">
+						<canvas width="495" height="336"></canvas>
+					</div>
+					<a href="[blogurl]" aria-label="listings" class="listings-item">
+						<div class="listings-img canvas-wrapper">
+							<canvas width="495" height="336"></canvas>
+							<img alt="listings" class="img-listings canvas-img img-responsive"
+								src="<?php echo get_stylesheet_directory_uri() ?>/images/listings-3.jpg" />
+						</div>
+						<div class="listings-content">
+							<div class="listings-content-top">
+								<h3>$2,395,000</h3>
+								<p>8420 SW 92ND ST<br> Miami</p>
+							</div>
+							<span class="site-btn">View Details</span>
+						</div>
+					</a>
 				</div>
-				<a href="[blogurl]" aria-label="listings" class="listings-item">
-					<div class="listings-img canvas-wrapper">
-						<canvas width="495" height="336"></canvas>
-						<img alt="listings" class="img-listings canvas-img img-responsive"
-							src="<?php echo get_stylesheet_directory_uri() ?>/images/listings-3.jpg" />
-					</div>
-					<div class="listings-content">
-						<div class="listings-content-top">
-							<h3>$2,395,000</h3>
-							<p>8420 SW 92ND ST<br> Miami</p>
+				<div class="listings-list">
+					<a href="[blogurl]" aria-label="listings" class="listings-item">
+						<div class="listings-img canvas-wrapper">
+							<canvas width="495" height="336"></canvas>
+							<img alt="listings" class="img-listings canvas-img img-responsive"
+								src="<?php echo get_stylesheet_directory_uri() ?>/images/listings-1.jpg" />
 						</div>
-						<span class="site-btn">View Details</span>
-					</div>
-				</a>
+						<div class="listings-content">
+							<div class="listings-content-top">
+								<h3>$2,395,000</h3>
+								<p>8420 SW 92ND ST<br> Miami</p>
+							</div>
+							<span class="site-btn">View Details</span>
+						</div>
+					</a>
+					<a href="[blogurl]" aria-label="listings" class="listings-item">
+						<div class="listings-img canvas-wrapper">
+							<canvas width="495" height="336"></canvas>
+							<img alt="listings" class="img-listings canvas-img img-responsive"
+								src="<?php echo get_stylesheet_directory_uri() ?>/images/listings-4.jpg" />
+						</div>
+						<div class="listings-content">
+							<div class="listings-content-top">
+								<h3>$2,395,000</h3>
+								<p>8420 SW 92ND ST<br> Miami</p>
+							</div>
+							<span class="site-btn">View Details</span>
+						</div>
+					</a>
+				</div>
+				<div class="listings-list">
+					<a href="[blogurl]" aria-label="listings" class="listings-item">
+						<div class="listings-img canvas-wrapper">
+							<canvas width="495" height="336"></canvas>
+							<img alt="listings" class="img-listings canvas-img img-responsive"
+								src="<?php echo get_stylesheet_directory_uri() ?>/images/listings-2.jpg" />
+						</div>
+						<div class="listings-content">
+							<div class="listings-content-top">
+								<h3>$2,395,000</h3>
+								<p>8420 SW 92ND ST<br> Miami</p>
+							</div>
+							<span class="site-btn">View Details</span>
+						</div>
+					</a>
+					<a href="[blogurl]" aria-label="listings" class="listings-item">
+						<div class="listings-img canvas-wrapper">
+							<canvas width="495" height="336"></canvas>
+							<img alt="listings" class="img-listings canvas-img img-responsive"
+								src="<?php echo get_stylesheet_directory_uri() ?>/images/listings-5.jpg" />
+						</div>
+						<div class="listings-content">
+							<div class="listings-content-top">
+								<h3>$2,395,000</h3>
+								<p>8420 SW 92ND ST<br> Miami</p>
+							</div>
+							<span class="site-btn">View Details</span>
+						</div>
+					</a>
+				</div>
 			</div>
-			<div class="listings-list">
-				<a href="[blogurl]" aria-label="listings" class="listings-item">
-					<div class="listings-img canvas-wrapper">
+			<div class="listings-list-holder">
+				<div class="listings-list">
+					<div class="listings-item">
 						<canvas width="495" height="336"></canvas>
-						<img alt="listings" class="img-listings canvas-img img-responsive"
-							src="<?php echo get_stylesheet_directory_uri() ?>/images/listings-1.jpg" />
 					</div>
-					<div class="listings-content">
-						<div class="listings-content-top">
-							<h3>$2,395,000</h3>
-							<p>8420 SW 92ND ST<br> Miami</p>
+					<a href="[blogurl]" aria-label="listings" class="listings-item">
+						<div class="listings-img canvas-wrapper">
+							<canvas width="495" height="336"></canvas>
+							<img alt="listings" class="img-listings canvas-img img-responsive"
+								src="<?php echo get_stylesheet_directory_uri() ?>/images/listings-3.jpg" />
 						</div>
-						<span class="site-btn">View Details</span>
-					</div>
-				</a>
-				<a href="[blogurl]" aria-label="listings" class="listings-item">
-					<div class="listings-img canvas-wrapper">
-						<canvas width="495" height="336"></canvas>
-						<img alt="listings" class="img-listings canvas-img img-responsive"
-							src="<?php echo get_stylesheet_directory_uri() ?>/images/listings-4.jpg" />
-					</div>
-					<div class="listings-content">
-						<div class="listings-content-top">
-							<h3>$2,395,000</h3>
-							<p>8420 SW 92ND ST<br> Miami</p>
+						<div class="listings-content">
+							<div class="listings-content-top">
+								<h3>$2,395,000</h3>
+								<p>8420 SW 92ND ST<br> Miami</p>
+							</div>
+							<span class="site-btn">View Details</span>
 						</div>
-						<span class="site-btn">View Details</span>
-					</div>
-				</a>
-			</div>
-			<div class="listings-list">
-				<a href="[blogurl]" aria-label="listings" class="listings-item">
-					<div class="listings-img canvas-wrapper">
-						<canvas width="495" height="336"></canvas>
-						<img alt="listings" class="img-listings canvas-img img-responsive"
-							src="<?php echo get_stylesheet_directory_uri() ?>/images/listings-2.jpg" />
-					</div>
-					<div class="listings-content">
-						<div class="listings-content-top">
-							<h3>$2,395,000</h3>
-							<p>8420 SW 92ND ST<br> Miami</p>
+					</a>
+				</div>
+				<div class="listings-list">
+					<a href="[blogurl]" aria-label="listings" class="listings-item">
+						<div class="listings-img canvas-wrapper">
+							<canvas width="495" height="336"></canvas>
+							<img alt="listings" class="img-listings canvas-img img-responsive"
+								src="<?php echo get_stylesheet_directory_uri() ?>/images/listings-1.jpg" />
 						</div>
-						<span class="site-btn">View Details</span>
-					</div>
-				</a>
-				<a href="[blogurl]" aria-label="listings" class="listings-item">
-					<div class="listings-img canvas-wrapper">
-						<canvas width="495" height="336"></canvas>
-						<img alt="listings" class="img-listings canvas-img img-responsive"
-							src="<?php echo get_stylesheet_directory_uri() ?>/images/listings-5.jpg" />
-					</div>
-					<div class="listings-content">
-						<div class="listings-content-top">
-							<h3>$2,395,000</h3>
-							<p>8420 SW 92ND ST<br> Miami</p>
+						<div class="listings-content">
+							<div class="listings-content-top">
+								<h3>$2,395,000</h3>
+								<p>8420 SW 92ND ST<br> Miami</p>
+							</div>
+							<span class="site-btn">View Details</span>
 						</div>
-						<span class="site-btn">View Details</span>
-					</div>
-				</a>
+					</a>
+					<a href="[blogurl]" aria-label="listings" class="listings-item">
+						<div class="listings-img canvas-wrapper">
+							<canvas width="495" height="336"></canvas>
+							<img alt="listings" class="img-listings canvas-img img-responsive"
+								src="<?php echo get_stylesheet_directory_uri() ?>/images/listings-4.jpg" />
+						</div>
+						<div class="listings-content">
+							<div class="listings-content-top">
+								<h3>$2,395,000</h3>
+								<p>8420 SW 92ND ST<br> Miami</p>
+							</div>
+							<span class="site-btn">View Details</span>
+						</div>
+					</a>
+				</div>
+				<div class="listings-list">
+					<a href="[blogurl]" aria-label="listings" class="listings-item">
+						<div class="listings-img canvas-wrapper">
+							<canvas width="495" height="336"></canvas>
+							<img alt="listings" class="img-listings canvas-img img-responsive"
+								src="<?php echo get_stylesheet_directory_uri() ?>/images/listings-2.jpg" />
+						</div>
+						<div class="listings-content">
+							<div class="listings-content-top">
+								<h3>$2,395,000</h3>
+								<p>8420 SW 92ND ST<br> Miami</p>
+							</div>
+							<span class="site-btn">View Details</span>
+						</div>
+					</a>
+					<a href="[blogurl]" aria-label="listings" class="listings-item">
+						<div class="listings-img canvas-wrapper">
+							<canvas width="495" height="336"></canvas>
+							<img alt="listings" class="img-listings canvas-img img-responsive"
+								src="<?php echo get_stylesheet_directory_uri() ?>/images/listings-5.jpg" />
+						</div>
+						<div class="listings-content">
+							<div class="listings-content-top">
+								<h3>$2,395,000</h3>
+								<p>8420 SW 92ND ST<br> Miami</p>
+							</div>
+							<span class="site-btn">View Details</span>
+						</div>
+					</a>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -665,6 +748,7 @@
 			</li>
 			<li class="side-smi">
 				<a href="[ai_client_facebook]" target="_blank" aria-label="facebook">
+					<span class="ai-font-facebook"></span>
 					<div class="side-btn">
 						<span class="ai-font-facebook"></span>
 						<p>Hazel Goldman</p>
@@ -677,6 +761,7 @@
 			</li>
 			<li class="side-smi">
 				<a href="[ai_client_twitter]" target="_blank" aria-label="twitter">
+					<span class="ai-font-twitter"></span>
 					<div class="side-btn">
 						<span class="ai-font-twitter"></span>
 						<p>Hazel Goldman</p>
@@ -689,6 +774,7 @@
 			</li>
 			<li class="side-smi">
 				<a href="[ai_client_zillow]" target="_blank" aria-label="zillow">
+					<span class="ai-font-zillow"></span>
 					<div class="side-btn">
 						<span class="ai-font-zillow"></span>
 						<p>Hazel Goldman</p>
@@ -701,6 +787,7 @@
 			</li>
 			<li class="side-smi">
 				<a href="[ai_client_youtube]" target="_blank" aria-label="youtube">
+					<span class="ai-font-youtube"></span>
 					<div class="side-btn">
 						<span class="ai-font-youtube"></span>
 						<p>Hazel Goldman</p>
@@ -713,6 +800,7 @@
 			</li>
 			<li class="side-smi">
 				<a href="[ai_client_instagram]" target="_blank" aria-label="instagram">
+					<span class="ai-font-instagram"></span>
 					<div class="side-btn">
 						<span class="ai-font-instagram"></span>
 						<p>Hazel Goldman</p>
@@ -725,6 +813,7 @@
 			</li>
 			<li class="side-smi">
 				<a href="[ai_client_linkedin]" target="_blank" aria-label="linkedin">
+					<span class="ai-font-linkedin"></span>
 					<div class="side-btn">
 						<span class="ai-font-linkedin"></span>
 						<p>Hazel Goldman</p>

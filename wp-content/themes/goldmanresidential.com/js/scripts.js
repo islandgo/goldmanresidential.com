@@ -49,8 +49,9 @@
 
       var sectionSlick = ".listings-slick";
       $(sectionSlick).slick({
-        slidesToShow: 3,
+        slidesToShow: 1,
         slideToScroll: 1,
+        fade: true,
         infinite: true,
         dots: false,
         autoplay: false,

@@ -527,7 +527,15 @@ header.header {
   justify-content: space-between;
   align-items: center;
 }
-
+.header .navigation #nav li > a {
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.header .navigation #nav li > a:hover {
+  opacity: 0.7;
+}
 /* Menu After */
 
 #nav > li ul.sub-menu::after {
@@ -654,6 +662,13 @@ header.header.show-fixed .burger-menu span {
   text-transform: uppercase;
   line-height: 171px;
   font-family: "News Cycle", sans-serif;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.bm-content #nav2 > li > a:hover {
+  color: #9f8a5a;
 }
 .burger-navs ul.sub-menu {
   font-size: 16px;
@@ -663,6 +678,15 @@ header.header.show-fixed .burger-menu span {
   line-height: 24px;
   position: absolute;
   margin-top: -63px;
+}
+.burger-navs ul.sub-menu a {
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.burger-navs ul.sub-menu a:hover {
+  color: #2b3990;
 }
 .burger-menu span:first-child {
   margin-top: 2px;
@@ -725,6 +749,13 @@ header.header.show-fixed .burger-menu span {
   height: 103px;
   cursor: pointer;
   pointer-events: all;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.bm-close:hover {
+  background: #2b3990;
 }
 /*#endregion burger menu */
 
@@ -768,44 +799,37 @@ header.header.show-fixed .burger-menu span {
   font-size: 12px;
 }
 .side-btn {
-  display: flex;
+  display: none;
   gap: 15px;
   align-items: center;
-  background: transparent;
-  width: 100%;
-  height: 100%;
   font-size: 14px;
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.02em;
   justify-content: center;
-}
-.side-smi a:hover .side-btn {
   height: 41px;
   width: 187px;
   background: rgba(159, 138, 90, 0.9);
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.side-smi a:hover .side-btn {
+  display: flex;
 }
 .side-btn:hover {
   background: rgba(43, 57, 144, 0.9) !important;
 }
 .side-btn span {
   font-size: 25px;
-}
-li.side-smi a .side-btn:last-child {
-  display: none;
-}
-.side-smi a:hover .side-btn:last-child {
-  display: flex;
-}
-.side-btn p {
-  display: none;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -o-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
-.side-smi a:hover .side-btn p {
-  display: block;
+.comp-social-sidebar .side-smi a:hover > span {
+  display: none;
 }
 /*#endregion Fixed smi */
 
@@ -922,10 +946,10 @@ section.hp-listings {
   z-index: 2;
 }
 .hp-listings .slick-list {
-  margin: -4px -2px;
+  margin: 0 -2px;
 }
 .hp-listings .slick-slide {
-  margin: 0 2px;
+  margin: 0;
 }
 .hp-listings .slick-slide > div:not(:last-child) {
   margin-bottom: 2px;
@@ -933,7 +957,7 @@ section.hp-listings {
 .hp-listings .listings-item {
   position: relative;
   display: block !important;
-  margin: 4px 0;
+  margin: 3px 2px;
 }
 .hp-listings .listings-img::before {
   content: "";
@@ -1134,6 +1158,14 @@ section.hp-listings {
 }
 .listings-btn {
   padding-top: 43px;
+}
+.listings-list-holder {
+  display: flex !important;
+}
+.listings-list-holder
+  .listings-list:first-child
+  .listings-item:first-child::before {
+  display: none;
 }
 /*#endregion Listings Region */
 
@@ -1707,6 +1739,13 @@ section.hp-testimonials {
   font-size: 11px;
   pointer-events: all;
   cursor: pointer;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.hp-testimonials .ai-font-play-button-a:hover {
+  background: #9f8a5a;
 }
 .hp-testimonials .ai-font-play-button-a:first-child:before {
   transform: rotate(180deg);
@@ -2078,12 +2117,27 @@ footer.footer {
   content: "";
   position: absolute;
   top: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 93%;
-  height: 92%;
+  left: 56px;
+  right: 56px;
+  bottom: 60px;
   z-index: -2;
   background: rgba(255, 255, 255, 0.88);
+}
+.footer::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 56px;
+  right: 56px;
+  bottom: 60px;
+  z-index: -2;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.4) 90%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }
 .footer-bg::after {
   content: "";
